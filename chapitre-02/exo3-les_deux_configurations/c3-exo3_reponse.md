@@ -1,11 +1,11 @@
 Comparaison des résultats : Mode Debug vs Mode Release
-
 | Caractéristique | Mode Debug | Mode Release |
 | :--- | :--- | :--- |
 | **Fichier cible généré** | `Build\Bin\Debug-Windows\MaSalle\MaSalle.exe` | `Build\Bin\Release-Windows\MaSalle\MaSalle.exe` |
 | **Taille de l'exécutable** | 59 735 octets (~59,7 Ko) | 59 735 octets (~59,7 Ko) |
 | **Temps de construction** | **0.65 secondes** | **0.20 secondes** |
 | **Statut final** | ✓ SUCCESS | ✓ SUCCESS |
+
 Quatre nombres demandés
 Taille Debug : 59 735 octets
 Taille Release : 59 735 octets
