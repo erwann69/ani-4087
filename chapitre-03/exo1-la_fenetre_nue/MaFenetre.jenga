@@ -11,4 +11,4 @@ with workspace("MaFenetreWks"):
         language("C++")
         cppdialect("C++17")
         files(["src/main.cpp"])
-        usenkentseukit()
+        usekit()

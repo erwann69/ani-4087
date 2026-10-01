@@ -3,10 +3,11 @@
 #include "NKWindow/Core/NkWindow.h"
 #include "NKEvent/NkWindowEvent.h"
 #include "NKTime/NkClock.h"
+using namespace nkentseu;
 
 int nkmain(const NkEntryState &state) {
     NkWindowConfig cfg;
-    cfg.title = "MaFenetre - ANI-4087 - Mafo";
+    cfg.title = "MaFenetre - ANI-4087 - NDEME";
     cfg.width = 1280;
     cfg.height = 720;
     cfg.centered = true;
