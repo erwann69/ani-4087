@@ -1,1 +1,14 @@
+from Jenga import *
 
+KIT = "C:/Users/erwan/Nkentseu/Kit/Kit.jenga"
+
+with workspace("MaFenetreWks"):
+    configurations(["Debug", "Release"])
+    useconfig(KIT)
+
+    with project("MaFenetre"):
+        windowedapp()
+        language("C++")
+        cppdialect("C++17")
+        files(["src/main.cpp"])
+        usekit()
